@@ -96,7 +96,7 @@ class NotesHandler {
       this._validator.validateNotePayload(request.payload);
       const { id } = request.params;
 
-      console.log(await this._service.editNoteById(id, request.payload));
+      await this._service.editNoteById(id, request.payload);
 
       return {
         status: 'success',
