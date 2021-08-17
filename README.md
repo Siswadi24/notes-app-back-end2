@@ -1,2 +1,2 @@
 # notes-app-back-end2
-Saat ini menggunakan  postgres database implemented untuk membuatnya bisa menyimpan data lebih baik.
+**  Ini adalah Latihan belajar saya pada kelas belajar Back-End yaitu Fundamental Aplikasi Back-End
