@@ -39,7 +39,7 @@ class CollaborationsService {
 
     async verifyCollaborator(noteId, userId) {
         const query = {
-            text: 'SELECT * FROM collaborations WHERE note_id = $1 AND user_id =$2 RETURNING id',
+            text: 'SELECT * FROM collaborations WHERE note_id = $1 AND user_id =$2',
             values: [noteId, userId],
         };
 
